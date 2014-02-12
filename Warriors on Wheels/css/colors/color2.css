@@ -1,0 +1,33 @@
+.top-header,.portfolio-item-block:hover, .portfolio-item-block.open,.portfolio-item-block .details,
+.inner-bg-heading,.service-offer,.postlist .post-meta,.pagination a,.m-bellows .m-header:hover,.m-bellows .m-header:focus{background:#1D1D1D}
+.m-header:hover a{color:#fff;}
+#back-to-top a{background:url("../../images/02_backtotop.png") no-repeat center center #1D1D1D}
+#back-to-top a:hover{background:url("../../images/02_backtotop.png") no-repeat center center #FFF056}
+#work-page, #about-page, #ourteem-page, #service-page, #blog-page,#service-page input[type="email"],.dark,.work{background:#DFE2DB}
+.menu ul li a {border-top: 2px solid rgba(0, 0, 0, 0);}
+.service-grid .service-icon {border:8px solid #fff;}
+.home-inner-wrap h1 span {background:rgba(0, 0, 0, 0.7);}
+.inner-content{background:#fff;}
+.red,.team-member i,#social .social li a,.process-block:hover .process-icon,.author,.livet a,.livet h2 a:hover,.timestamp,.postlist .post-meta a:hover{color:#FFF056}
+body,a,h1, h2, h3, h4, h5, h6,.inner-row h2,.inner-row h4,.inner-row p,.portfolio-item-block .title,.m-header a,.service-grid .service-icon,
+.pricing-box:hover,.pricing-box:hover h1,.pricing-box:hover h4,.pricing-box:hover h5,.ribbon,#social .hd-line h2,#social .hd-line,.contact-info,
+.btn,.team-member i:hover,.w-icon:hover .w-icon-link{color:#1D1D1D;}
+.lead-cta{color:#1D1D1D !important;}
+.logo {background:url("../../images/03_logo2.png") no-repeat;}
+.menu-head p { background: url("../../images/05_title-border-color2.png") no-repeat scroll center bottom; }
+.home-teaser-bg {background-image: url("../../images/04_bg.jpg");}
+.team-member .imageCover {background: url("../../images/16_image-white-shad2.png") repeat scroll 0 0 transparent;}
+.tile-hot:before {background: url("../../images/24_ribboncolor2.png") no-repeat scroll 0 0 / 82px 82px transparent;}
+.portfolio-item-block .sub-title{color:#3d3d3d;}
+ .portfolio-item-block:hover .title,.livet a:hover{color:#fff;}
+.menu .active,.menu ul li a:hover {border-top: 2px solid #FFF056;}
+.btn,.portfolio-item-block{box-shadow:0 3px 0 0 #fed900;}
+.sendmsg,.btn.btn-first:hover,.btn.btn-pricing:hover,.btn.btn-news:hover ,.btn.btn-close:hover,#basics .column:hover{background:#fed900;}
+.lead-cta:after {border-color:#FFF056 transparent transparent;}
+.our-process .process-icon {box-shadow: 0 0 0 3px #FFF056;}
+.process-block:hover .process-icon {border: 4px solid #FFF056}
+.w-icon-link,#basics,.portfolio-item-block,.content-area .infoCont,
+.btn.btn-first,.btn.btn-close,.btn.btn-pricing,.btn.btn-news,.ribbon,.m-bellows .m-header,.whyus:hover .inner-bg-heading,
+.our-process .process-icon,.service-grid .service-icon,.pricing-box:hover,.pagination .current,.pagination a:hover,#social,
+.sendmsg:hover,.w-icon{background:#FFF056;color:#1D1D1D}
+*::-moz-selection{background:#FFF056;color:#1D1D1D}

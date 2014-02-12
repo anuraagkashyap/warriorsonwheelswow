@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>WARRIORS ON WHEELS</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">Paypal Payment Pack Documentation by Aenea v1.1</h3>
+		
+		<hr>
+		
+		<h1 class="center">Paypal Payment Pack</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 27/08/2012 <br>
+					Updated: 16/12/2012
+					<br>
+					By: Aenea<br>
+					Email: <a href="mailto:info@beanea.com">info@beanea.com</a>
+				  </strong>
+			  </p>
+		  </div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing Paypal Payment Pack. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/Aenea">here</a>. Thanks so much!</p>
+			</div>
+	  </div><!-- end div .borderTop -->
+		
+		<hr>
+		
+	  <h2 id="toc" class="alt">Table of Contents</h2>
+	  <ol class="alpha">
+        
+        	<li><a href="#Concept">Description</a></li>
+			<li><a href="#Installation">Installation</a></li>
+			<li><a href="#Customize">Customize colors</a></li>
+                        
+            <li><a href="#sandbox">Use PayPal Sandbox</a></li>
+            <li><a href="#Sources">Sources and Credits</a></li>
+			
+			
+		</ol>
+		
+        
+        
+		<hr>
+		
+	  <h3 id="Concept"><strong>A - Description</strong> - <a href="#toc">top</a></h3>
+	  <p>This script Paypal Payment Pack allows you to have a quick & easy payment terminal for your clients. Only need to put this script into any directory on  your hosting account, edit configuration file and give the link to your  customers.</p>
+<p>
+The pack has a set of solutions that allow you to:<br />
+Buy a single element<br />
+Buy multiple items<br />
+Make a Subscription<br />
+Make a donation<br>
+&quot;Buy me a beer&quot;</p>
+
+<p>
+Demo 
+  <a href="www.facebook.com/warriorsonwheelsWOW">WARRIORS ON WHEELS</a></p> 
+
+		<hr>
+
+	  <h3 id="Individual"><strong>B - Installation</strong> - <a href="#toc">top</a></h3>
+
+		<p>1- Select the terminal you want to use. Open "paypal_config.php" and edit the values ​​that you want. If you want to use test mode you will have to change the value of $use_paypal_sandbox		= true; In each line you will see a description of each parameter.</p>
+		<p>2- Upload all files (including paymentpack folder) on your server ... and you will be the payment system ready for use.</p>
+		<p>3-If you wan use MySql: <br>
+		  a-Config file paypal_config.php for MySql settings<br>
+		  b-Use install_mysql.php to install table<br>
+		  c-Delete 
+		  install_mysql.php from server<br>
+		  <br />
+	  </p>
+		<br /><br />
+<hr>
+
+
+<h3 id="Customize"><strong>C - Customize colors</strong> - <a href="#toc">top</a></h3>
+
+		<p>The Payment Pack has 4 predefined color styles. To activate any of the 4 you just have to uncomment the one you want to use. <br />
+      <pre>
+        
+    	< link rel="stylesheet" href="paymentpack/css/style_green.css" media="screen" />
+    	< link rel="stylesheet" href="paymentpack/css/style_orange.css" media="screen" />
+    	< link rel="stylesheet" href="paymentpack/css/style_red.css" media="screen" />
+    	< link rel="stylesheet" href="paymentpack/css/style_blacknwhite.css" media="screen" />
+   		
+        </pre>
+It's easy you can also change the colors and the message "Thanks", just edit the file paymentcomplete.php<br />
+        <br /><br />
+        
+		<hr>
+        
+	  <h3 id="sandbox"><strong>D - PayPal SandBox</strong> - <a href="#toc">top</a></h3>
+
+		<p>If you want to test the installed system can activate SandBox. <br>
+		  To activate the Paypal SandBox within <strong>config.php</strong> you have to replace this  <strong>$payaltest = false;</strong>, for  this <strong>$payaltest = true;</strong><br />
+      </p>
+        <p>
+        <strong>Create an account in Paypal testing</strong>
+        <br />
+        First you have to register in <strong><a href="https://developer.paypal.com/" target="_blank">https://developer.paypal.com/</a></strong> <br>
+        <br>
+        <img src="images/01paypalsandbox.png" ></p>
+        
+		
+      <p>
+        <strong>Register an account Paypal SandBox testing to Sell / Seller</strong>
+        <br />
+        1 - Go to Test Accounts <br />
+        2 - Click Preconfigured<br />
+        3 - Click on Account Type "Seller (Use to represent ...)"<br />
+        4 - Fill form<br />
+        5 - Create account button<br />
+        <img src="images/02paypalsandbox.png" ></p>
+        
+         <p>
+        <strong>Register an account Paypal SandBox testing to Buy</strong>
+        <br />
+        1 - Go to Test Accounts <br />
+        2 - Click Preconfigured<br />
+        3 - Click on Account Type "Buyer (Use to represent your customer's...)"<br />
+        4 - Fill form<br>
+        5 - Put 'virtual money' in Account balance (important!)<br />
+        5 - Create account button<br />
+        </p><br />
+        
+		<hr>
+      
+	  
+		
+		<h3 id="credits"><strong>E -  Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the jquery validation engine <a href="http://www.position-relative.net/creation/formValidator/" target="_blank">http://www.position-relative.net/creation/formValidator/</a>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this Paypal Payment Pack. As I said at the beginning, I'd be glad to help you if you have any questions relating to this. No guarantees, but I'll do my best to assist.</p> 
+		
+		<p class="append-bottom alt large"><strong>Aenea</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+</div><!-- end div .container -->
+</body>
+</html>

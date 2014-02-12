@@ -1,0 +1,36 @@
+.top-header,.portfolio-item-block:hover, .portfolio-item-block.open,.portfolio-item-block .details,
+.inner-bg-heading,.service-offer,.postlist .post-meta,.pagination a,.m-bellows .m-header:hover,.m-bellows .m-header:focus{background:#dc3d24}
+#back-to-top a{background:url("../../images/02_backtotop.png") no-repeat center center #dc3d24}
+#back-to-top a:hover{background:url("../../images/02_backtotop.png") no-repeat center center #232b2b}
+#work-page, #about-page, #ourteem-page, #service-page, #blog-page,#service-page input[type="email"],.dark,.work{background:#ECECEA}
+
+.menu ul li a {border-top: 2px solid rgba(0, 0, 0, 0);}
+.service-grid .service-icon {border:8px solid #fff;}
+.home-inner-wrap h1 span {background:rgba(35, 43, 43, 0.7);}
+.inner-content{background:#fff;}
+.red,.team-member i,#social .social li a,.process-block:hover .process-icon,.author,.livet a,.livet h2 a:hover,.timestamp,body,a,.postlist .post-meta a:hover{color:#232b2b}
+.team-member i:hover,.w-icon:hover .w-icon-link {color:#dc3d24;}
+h1, h2, h3, h4, h5, h6{color:#232B2B;}
+.inner-row h2,.inner-row h4,.inner-row p,.portfolio-item-block:hover .title,.home-inner-wrap h1 span,.livet a:hover{color:#fff;}
+.lead-cta{color:#fff !important;}
+.logo {background:url("../../images/03_logo4.png") no-repeat;}
+.menu-head p { background: url("../../images/05_title-border-color4.png") no-repeat scroll center bottom; }
+.home-teaser-bg {background-image: url("../../images/04_bg.jpg");}
+.team-member .imageCover {background: url("../../images/16_image-white-shad4.png") repeat scroll 0 0 transparent;}
+.tile-hot:before {background: url("../../images/24_ribboncolor4.png") no-repeat scroll 0 0 / 82px 82px transparent;}
+.portfolio-item-block .sub-title{color:#999;}
+ .portfolio-item-block:hover .title,.livet a:hover{color:#fff;}
+.menu .active,.menu ul li a:hover {border-top: 2px solid #232b2b;}
+.btn,.portfolio-item-block{box-shadow:0 3px 0 0 #1b2222;}
+.sendmsg,.btn.btn-first:hover,.btn.btn-pricing:hover,.btn.btn-news:hover ,.btn.btn-close:hover,#basics .column:hover{background:#1b2222;}
+.lead-cta:after {border-color:#232b2b transparent transparent;}
+.our-process .process-icon {box-shadow: 0 0 0 3px #232b2b;}
+.process-block:hover .process-icon {border: 4px solid #232b2b}
+.w-icon-link,#basics,.portfolio-item-block,.content-area .infoCont,
+.btn.btn-first,.btn.btn-close,.btn.btn-pricing,.btn.btn-news,.ribbon,.m-bellows .m-header,.whyus:hover .inner-bg-heading,
+.our-process .process-icon,.service-grid .service-icon,.pricing-box:hover,.pagination .current,.pagination a:hover,#social,
+.sendmsg:hover,.w-icon{background:#232b2b;color:#fff}
+*::-moz-selection{background:#232b2b;color:#fff}
+
+
+
